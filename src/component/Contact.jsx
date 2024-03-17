@@ -35,7 +35,7 @@ function Contact() {
     <ToastContainer autoClose={3000} position={'top-right'} theme={'light'} />
     <div className="container contact-home">
       <div className="row" ref={servicesRef}>
-          <div className="col-lg-6 col-md-12 col-sm-12  p-5 pl-5 mt-1 mb-5 service2">
+          <div className="col-lg-6 col-md-12 col-sm-12  p-5 pl-5 mt-1 mb-5 service1">
             <div className=" text-center mb--50 ">
                 <h4 className="section-title description text-justify text-center ff-secondary   ">Have a question? Need assistance with your project? <br /> We're here to help!</h4>
                         <hr />
@@ -46,7 +46,7 @@ function Contact() {
             
         </div>
         
-        <div className="col-md-12 col-lg-6 col-sm-12 service2 ">
+        <div className="col-md-12 col-lg-6 col-sm-12 service1 ">
           <form className="form">
             <div className="flex ff-secondary  fw-normal">
               <div className="login color ">Contact US</div>
