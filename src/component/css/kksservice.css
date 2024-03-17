@@ -1,0 +1,15 @@
+.kks-img{
+    /* height:70%; */
+    width:80%;
+    margin-top: 70px;
+}
+.carouselButton{
+    margin-left: -10%;
+    background-color:rgb(239, 113, 37);
+}
+.carouselButton1{
+    margin-right: -10%;
+}
+.carouselButton span , .carouselButton1 span{
+    background-color:rgb(239, 113, 37);
+}

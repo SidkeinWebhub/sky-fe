@@ -1,0 +1,29 @@
+.cen-client{
+	background: url(../../assets/wave2.svg) no-repeat 50% 50%/cover;
+    height:auto;
+}
+.h-sky{
+	color: #ffffff;
+	text-shadow: 5px 5px 5px #7a7566;
+	font-size: 50px;
+    margin-left: 2%;
+    margin-top: 100px;
+    
+}
+.build-img {
+    /* box-shadow: 3px 3px 3px #000; */
+    filter: drop-shadow(16px 7px 8px rgba(245, 244, 244,0.4));
+    width:max-content;
+    float: inline-end;
+}
+@media (max-width: 768px) {
+    .h-sky{
+        font-size: 30px;
+        margin-left: 20%;
+        margin-top: 100px;   
+    }
+    .build-img {
+        width:100%;
+        float: inline-end;
+    }
+  }

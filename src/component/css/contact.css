@@ -1,0 +1,108 @@
+.contact-home{
+    margin:10% 3%;
+}
+.singup {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1.5em;
+  }
+  .description{
+    background: transparent;
+    /* font-size: 18px; */
+    text-align:justify;
+    margin-top: -80px;
+}
+.form {
+  padding: 20px;
+  border-radius: 40px;
+  background: #e3e3e3;
+  box-shadow: 16px 16px 32px #c8c8c8,
+        -16px -16px 32px #fefefe;
+}
+
+.login {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px #F17224 solid;
+  width: 200px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.form button {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  border-radius: 50px;
+  /* border: none; */
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 19px;
+  font-weight: bold;
+  width: 150px;
+  justify-content: center;
+  color:#EA6F25;
+}
+
+.form label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.form button:hover {
+  box-shadow: 2px 2px 12px #EA6F25;
+}
+
+.input {
+  /* height: 30px; */
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 2px 12px inset gray;
+  /* background: linear-gradient(to right ,#EA6F25,grey); */
+}
+
+.span:hover {
+  font-weight: bold;
+}
+
+.color {
+  color: black;
+}
+
+.align {
+  text-align: center;
+}
+.contact-img{
+  /* transition: transform 0.8s;
+    -webkit-transition: transform 0.8s; */
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    filter: drop-shadow(16px 7px 8px rgba(0, 0, 0, 0.6));
+    /* animation: rotating1 8s linear infinite; */
+}
+/* .contact-img:hover{
+  animation: rotating1 5s linear infinite; 
+} */
+@keyframes rotating1 /* Safari and Chrome */ {
+  from {
+    transform:rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+  } 
+  to {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+  }
+}
+

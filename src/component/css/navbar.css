@@ -1,0 +1,168 @@
+nav.nav2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    color: #f47425;
+    z-index: 99;
+    height: 80px;
+}
+.logo{
+  position: relative;
+  right: 30px;
+}
+.navbar-nav{
+  margin-left: -15px;
+}
+/* element.style {
+  overflow:auto;
+  padding-right: 0px;
+} */
+body {
+  overflow:scroll !important;
+  padding-right:0 !important;
+}
+
+element.style  {
+  overflow:scroll !important;
+  padding-right:0 !important;
+}
+.nav-link1{ 
+    color: #565555; 
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+}
+.nav-link1:active{ 
+    color: #f47425; 
+    /* text-decoration: none; */
+}
+.nav-link1:hover{ 
+    color: #f47425; 
+    /* text-decoration: none; */
+}
+/* .dropdown-menu{
+    background: linear-gradient(to right ,#f8d57c  ,#F8BC24 );
+} */
+#button-container {
+    position: relative;
+    right: 0px;
+  }
+  
+  .button {
+    position: absolute;
+    /* top: 0%; */
+    /* left: 95.5%; */
+    /* left: 95.5%; */
+    translate: -50% 50%;
+    background: #F4F7F5;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
+    z-index: 9;
+  }
+  
+  #share {
+    color:#EE7124 ;
+    background: #f8e0d1;
+  }
+  
+  #facebook {
+    background: linear-gradient(-160deg, #00D2FF, #3A7BD5);
+  }
+  
+  #instagram {
+    background: linear-gradient(135deg, #833AB4, #FD1D1D, #FCB045);
+  }
+  
+  #dribbble {
+    background: linear-gradient(-70deg, #0575b3, #0575b3);
+  }
+  
+  #github {
+    background: linear-gradient(-70deg, #21cb3f, #5af477);
+  }
+  
+  #youtube {
+    background: linear-gradient(-70deg, black, gray);
+  }
+  
+  #button-container:hover button {
+    rotate: 360deg;
+  }
+  
+  #button-container:hover #share {
+    rotate: 270deg;
+  }
+  
+  #button-container:hover > #facebook {
+    translate: -200% 50%;
+  }
+  
+  #button-container:hover > #instagram {
+    translate: 50% 150%;
+  }
+  
+  #button-container:hover > #dribbble {
+    translate: 100% 50%;
+  }
+  
+  #button-container:hover > #github {
+    translate: -150% 150%;
+  }
+  
+  #button-container:hover > #youtube {
+    translate: -50% 190% ;
+  }
+
+
+  @media (min-width:768px) and (max-width:1200px) {
+    .logo{
+      position: relative;
+      right: 50px;
+    }
+    .nav-item{
+        font-size: 12px;
+    }
+    .nav-link{ 
+      color: #565555; 
+      text-decoration: none;
+      margin: 0px;
+      padding: 5px;
+  }
+  #button-container {
+    position: relative;
+    right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+    .nav1{
+        height: 150px;
+        bottom: 10px;
+    }
+    .logo{
+        position: relative;  
+        right: 80px;
+    }
+    .nav-list{
+        text-align: center;
+        margin-top: -30px;
+        padding-bottom: 20px;
+        font-size: 11px;
+    }
+   
+}

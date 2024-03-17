@@ -1,0 +1,142 @@
+.sky-img2 {
+    /* z-index: 9; */
+    width: 200px; 
+    height: 400px;
+    /* position: relative; */
+    /* bottom: 0px;      */
+}
+.sky-img3 { 
+    position: relative;
+    top: 50px;
+    right: 50px;
+    width: 400px; 
+    height: 400px;
+    /* margin-top: 50px;
+    margin-left: -60px; */
+}
+.sky-service{
+    /* box-shadow: 16px 16px 32px #c8c8c8,-16px -16px 32px #fefefe, 16px 16px 32px #c8c8c8; */
+    margin-bottom: 80px;
+}
+.sky-service1{
+    border-image:  url(../../assets/tape.png);
+    border-image-width: 200px;
+    border-image-outset: 4px;
+    padding:0px 10px;
+}
+.swiper1{
+    /* box-shadow: 16px 16px 32px #c8c8c8,-16px -16px 32px #fefefe; */
+    background: url(../../assets/skypattern.svg) no-repeat 50% 50%/contain;
+    padding: 20px;
+    height: max-content;
+    width: max-content;
+}
+.rn-address1 {
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    border-radius: 30px;
+    padding-top: 54px;
+    height:100%;
+    padding-bottom: 30px; 
+    text-align: center; 
+
+    /* margin-top: 30px;
+    border: 1px solid #ebebeb;
+    padding: 40px;
+    border-radius: 50px;
+    padding-top: 54px;
+    height:83%; */
+    /* background: #fff; */
+    /* padding-bottom: 50px; */
+    
+    text-align: center; 
+}
+.rn-address1:hover{
+    .icon{
+        background:#F47425;
+        border-color:bisque;
+        color: #fff;
+    }
+}
+.icon:hover{
+    background:#F47425;
+        border-color:bisque;
+        color: #fff;
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+
+    .sky-img2 {
+        /* z-index: 9; */
+        position: relative;
+        top: 25%;
+        width: 100%; 
+        height: 50%;
+        /* position: relative; */
+        /* bottom: 0px;      */
+    }
+    .sky-img3 { 
+        position: relative;
+        top: 50px;
+        right: 50px;
+        width: 150%; 
+        height:100%;
+        /* margin-top: 50px;
+        margin-left: -60px; */
+    }
+    .sky-service{
+        /* box-shadow: 16px 16px 32px #c8c8c8,-16px -16px 32px #fefefe, 16px 16px 32px #c8c8c8; */
+        margin-bottom: 80px;
+    }
+    .sky-service1{
+        border-image:  url(../../assets/tape.png);
+        border-image-width: 200px;
+        border-image-outset: 4px;
+        padding:0px 10px;
+    }
+    
+}
+@media (min-width:400px) and (max-width:768px){
+    .sky-service1{
+        border-image:   url(../../assets/tape.png);
+        border-image-width: 200px;
+        border-image-outset: -50px; 
+        padding: 0px;     
+    }
+    .sky-img3 { 
+        position: relative;
+        top: 25%;
+        width: 100%; 
+        height: 100%;
+        right: 50px;
+        margin-top: -90px;
+        /* margin-left: -60px; */
+    }
+    .title1{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    
+    .sky-service1{
+        border-image:   url(../../assets/tape.png);
+        border-image-width: 200px;
+        border-image-outset: -50px; 
+        padding: 0px;     
+    }
+    .sky-img3 { 
+        position: relative;
+        top: 25%;
+        width: 100%; 
+        height: 100%;
+        right: 50px;
+        margin-top: -90px;
+        /* margin-left: -60px; */
+    }
+    .title1{
+        font-size: 12px;
+    }
+}
+

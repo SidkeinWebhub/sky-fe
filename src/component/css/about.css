@@ -1,0 +1,31 @@
+.cen-client{
+	background: url(../../assets/wave2.svg) no-repeat 50% 50%/cover;
+    height:auto;
+}
+.h-client{
+	color: #ffffff;
+	text-shadow: 5px 5px 5px #7a7566;
+	font-size: 70px;
+    margin-left: 150px;
+    margin-top: 100px;
+    
+}
+.cap-img{
+   /* margin-right: 50px; */
+   filter: drop-shadow(16px 7px 8px #000);
+  transform: skew(5deg, -5deg);
+  animation: anim 10s linear infinite, move 5s linear infinite 1s;
+  width:75%;
+  float: inline-end;
+}
+
+@media (max-width: 768px) {
+  .h-client{
+    font-size: 50px;
+      margin-left: 20%;
+      margin-top: 100px;  
+  }
+  .cap-img{
+    float: inline-end;
+  }
+}

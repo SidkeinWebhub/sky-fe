@@ -1,0 +1,117 @@
+.vino-img{
+    width:120%;
+    height: auto;
+}
+.vino-img1{
+    z-index: 999;
+}
+.vono-about{
+    text-align: justify
+}
+
+.scroll-1::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    cursor:-webkit-grab;
+  }
+  
+  .scroll-1::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888;
+    cursor:grab;
+  }
+  
+  .container-vino * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .container-vino {
+    display: flex;
+    overflow-x: scroll ;
+    padding: 24px;
+    width: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding-top: 24px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+  
+  .container-vino .card-vino{
+    flex: 0 0 30%;
+    /* overflow: hidden; */
+    border-radius: 8px;
+    /* background-color: #141414; */
+    filter: drop-shadow(16px 7px 8px grey);
+    scroll-snap-align: start;
+  }
+  
+  .card-vino .card__image {
+    flex: 2;
+    height: 140px;
+  }
+  
+  .card-vino:nth-child(1) .card__image {
+    background:  url(../../assets/vinos1.svg) no-repeat 50% 50%/contain;
+  }
+  
+  .card-vino:nth-child(2) .card__image {
+    background:  url(../../assets/vinos2.svg) no-repeat 50% 50%/contain;
+  }
+  
+  .card-vino:nth-child(3) .card__image {
+    background:  url(../../assets/vinos3.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(4) .card__image {
+    background:  url(../../assets/vinos4.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(5) .card__image {
+    background:  url(../../assets/vinos5.png) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(6) .card__image {
+    background:  url(../../assets/vinos6.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(7) .card__image {
+    background:  url(../../assets/vinos7.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(8) .card__image {
+    background:  url(../../assets/vinos8.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(9) .card__image {
+    background:  url(../../assets/vinos9.svg) no-repeat 50% 50%/contain;
+  }
+  
+  .card-vino .card__content {
+    padding: 3px;
+    text-align: center;
+  }
+  
+  .card-vino .card__content .card__title {
+    font-size: 22px;
+    color: #F47425;
+  } 
+  .card-vino .card__content .card__describe {
+    font-size: 16px;
+    color: #888;
+    /* color: #F47425; */
+  }
+
+  .value-service{
+    box-shadow: 15px 15px 15px  #ebebeb;
+    border-top: 5px double #f47425;
+    border-left: 5px double #f47425;
+    margin-bottom: 20px;
+    /* border: 1px solid #ebebeb; */
+    padding: 10px;
+    border-radius: 30px;
+    padding-top: 54px;
+    height:100%;
+    padding-bottom: 30px; 
+    text-align: center;
+  }
+  .value-service:hover{
+    border-bottom: 3px dotted #f47425;
+    border-right: 3px dotted #f47425;
+  }

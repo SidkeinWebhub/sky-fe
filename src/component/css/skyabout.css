@@ -1,0 +1,83 @@
+.about{
+    /* margin: 120px; */
+    /* margin-top:-600px; */
+    /* margin-bottom: 280px; */
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.aboutH1{
+    /* margin-bottom: 80px; */
+    margin-top: 30px;
+    /* font-family: "Roboto", sans-serif; */
+    z-index: 9;
+    /* padding-top: 20px; */
+}
+.aboutp{
+  text-align:justify;
+  font-size: 20px;
+  /* font-family: "Roboto", sans-serif; */
+}
+.sky-img{
+    /* background: rgba(248, 189, 40); */
+    /* margin-top: -120px; */
+   
+    /* object-fit: cover; */
+    /* animation: morph 3.5s linear infinite; */
+    -webkit-animation: rotating 30s linear infinite;
+    -moz-animation: rotating 30s linear infinite;
+    -ms-animation: rotating 30s linear infinite;
+    -o-animation: rotating 30s linear infinite;
+    animation: rotating 30s linear infinite;
+}
+.sky-img1{
+    position: relative;
+    z-index: 9;
+    width: 200%;
+    height: auto;
+}
+.service1 {
+    transform: translateX(-250px);
+    opacity: 0;
+    transition: transform 2s, opacity 1s;
+}
+  .service1.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  .service2 {
+    transform: translateX(250px);
+    opacity: 0;
+    transition: transform 2s, opacity 1s;
+}
+  .service2.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+@keyframes morph {
+    0%,100%{
+        border-radius: 40% 60% 705 30% / 40% 40% 60% 50%;
+    }
+    34%{
+        border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    }
+    67%{
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .about{
+        /* margin-top:-300px; */
+    }
+    .tank-img{
+        /* background: #F8BD28; */
+        /* margin-top: -120px; */
+       
+        /* object-fit: cover; */
+        animation: morph 3.5s linear infinite;
+    }
+}
