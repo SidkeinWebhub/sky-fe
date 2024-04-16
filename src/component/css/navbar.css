@@ -7,9 +7,19 @@ nav.nav2{
     z-index: 99;
     height: 80px;
 }
+.dropdown-menu , .dropdown-item {
+  background: linear-gradient(to right ,#f6b287  ,#f47425 );
+  color: #f47425;
+}
 .logo{
   position: relative;
-  right: 30px;
+  /* right: 30px; */
+  bottom: 130%;
+}
+.logo-sky{
+  /* background-color: #00D2FF; */
+  width: 20%;
+  height: 80px;
 }
 .navbar-nav{
   margin-left: -15px;
@@ -132,7 +142,7 @@ element.style  {
   @media (min-width:768px) and (max-width:1200px) {
     .logo{
       position: relative;
-      right: 50px;
+      right: 0px;
     }
     .nav-item{
         font-size: 12px;
@@ -156,13 +166,17 @@ element.style  {
     }
     .logo{
         position: relative;  
-        right: 80px;
+        right: 0px;
     }
     .nav-list{
         text-align: center;
         margin-top: -30px;
         padding-bottom: 20px;
         font-size: 11px;
+    }
+    .logo-sky{
+      width: 73%;
+      height: 80px;
     }
    
 }

@@ -55,22 +55,22 @@ function Service() {
             </div>
             <div className=" col-lg-6 para">
                 <h5 className="section-title ff-secondary text-start  fw-normal">About Us</h5>
-                <h1 className="mb-4 ff-secondary ">Welcome to <i className="  me-2 ff-secondary service-title">SKY Groups</i></h1>
-                <p className="mb-4">Our SKY Groups brings together the collective expertise of four leading companies, each specializing in different fields but united by a shared commitment to excellence and customer satisfaction. </p>
+                <h1 className="mb-4 ff-secondary ">Welcome to <i className="  me-2 ff-secondary service-title">SKYERS Group</i></h1>
+                <p className="mb-4">Our SKYERS Group brings together the collective expertise of four leading companies, each specializing in different fields but united by a shared commitment to excellence and customer satisfaction. </p>
                 <p className="mb-4">With a focus on innovation, quality, and reliability, we aim to provide comprehensive solutions that exceed the expectations of our clients across various industries.
                 </p>
 
                 <figure>
                     <blockquote className="blockquote">
-                        <p>SKY Engineering Enterprises - Engineering Concern</p>
+                        <p>SKY ENGINNERING DESIGN – Design and Engineering </p>
                     </blockquote>
                     <figcaption className="blockquote-footer">
-                    SKY Engineering Enterprises is dedicated to providing top-tier engineering solutions tailored to meet the unique needs of our clients.
+                    SKY Engineering Design is dedicated to providing top-tier engineering solutions tailored to meet the unique needs of our clients.
                     </figcaption>
                 </figure>
                 <figure>
                     <blockquote className="blockquote">
-                        <p>KKS Engineering and Contractor - Civil and Mechanical Construction</p>
+                        <p>KKS ENGINNERING AND CONTRACTOR – Civil and Mechanical Work</p>
                     </blockquote>
                     <figcaption className="blockquote-footer">
                     KKS Engineering and Contractor specializes in civil and mechanical construction projects, offering a wide range of services to bring our clients' visions to life. 
@@ -78,7 +78,7 @@ function Service() {
                 </figure>
                 <figure>
                     <blockquote className="blockquote">
-                        <p>Vinoveda Enterprises - Industrial Hiring Services</p>
+                        <p>VINOVEDA ENTERPRISES – Industrial Equipment Provider on Hire / Rental</p>
                     </blockquote>
                     <figcaption className="blockquote-footer">
                     Vinoveda Enterprises offers a wide selection of construction equipment and machinery available for rent.
@@ -86,7 +86,7 @@ function Service() {
                 </figure>
                 <figure>
                     <blockquote className="blockquote">
-                        <p>Shiva Ganapathy Travels - Travel Services</p>
+                        <p>SHIVAGANAPATHY TRAVELS – Passenger Vehicle Rental </p>
                     </blockquote>
                     <figcaption className="blockquote-footer">
                     Shiva Ganapathy Travels is your gateway to unforgettable journeys and seamless travel experiences. 

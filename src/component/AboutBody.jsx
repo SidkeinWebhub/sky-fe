@@ -12,7 +12,7 @@ function AboutBody() {
         <div className=" row">
             <div className=' ff-secondary  fw-normal '>
                 <h1 className='mission-bg text-lg-center text-md-end text-sm-end text-xl-center '>Our Mission & Values</h1>
-                <p className='mission-p mt-5 '>At SKY Groups, we bring together a diverse range of expertise to provide integrated solutions tailored to your needs. With a commitment to excellence, innovation, and customer satisfaction, we are your trusted partner for success. <br /> At SKY Groups, our mission is to empower businesses and individuals by providing seamless access to a wide range of services under one roof. We strive to simplify complexity, enhance efficiency, and drive innovation in every project we undertake. Our goal is to create value and exceed expectations, helping our clients achieve their objectives and unlock new possibilities.</p>
+                <p className='mission-p mt-5 '>At SKYERS GROUP, we bring together a diverse range of expertise to provide integrated solutions tailored to your needs. With a commitment to excellence, innovation, and customer satisfaction, we are your trusted partner for success. <br /> At SKYERS GROUP, our mission is to empower businesses and individuals by providing seamless access to a wide range of services under one roof. We strive to simplify complexity, enhance efficiency, and drive innovation in every project we undertake. Our goal is to create value and exceed expectations, helping our clients achieve their objectives and unlock new possibilities.</p>
             </div>
             <div><img src={value} alt="value bg" className='rounded mx-auto d-block value-img'/></div>
 

@@ -1,7 +1,5 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-// import bann from '../assets/wave2.svg'
-// import bann1 from '../assets/wave.svg'
 import banner1 from '../assets/banner6.png'
 import banner2 from '../assets/banner9.svg'
 import banner3 from '../assets/banner8.png'
@@ -16,8 +14,8 @@ function Banner() {
       <img src={banner1}  
       className="gear-img1 d-block rounded  mx-auto" alt="..."></img>
       <div className="carousel-caption  text-light text-start">
-        <h3 className='banner-text'><i>SKY Engineering Enterprises</i></h3>
-        <p>At SKY Engineering Enterprises, we're committed to excellence in engineering solutions tailored to meet your needs. 
+        <h3 className='banner-text'><i>SKY Engineering Design</i></h3>
+        <p>At SKY Engineering Design, we're committed to excellence in engineering solutions tailored to meet your needs. 
         <NavLink to={`/SKYEngineering`} className='nav-link text-start pt-2'>
           <button className="button1">Explore Now !</button>
         </NavLink>

@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5f18d10a.css",
-    "main.js": "/static/js/main.adc8b19a.js",
-    "static/js/453.92501364.chunk.js": "/static/js/453.92501364.chunk.js",
+    "main.css": "/static/css/main.7c157aa1.css",
+    "main.js": "/static/js/main.ee0a19ae.js",
+    "static/js/206.bba2fe96.chunk.js": "/static/js/206.bba2fe96.chunk.js",
     "static/media/banner6.png": "/static/media/banner6.4343bfb451294def2989.png",
     "static/media/choose-banner.png": "/static/media/choose-banner.b2a9dd3b1d8ae19000bc.png",
-    "static/media/skyservice3.png": "/static/media/skyservice3.acd1212e3376a388cd74.png",
     "static/media/building.png": "/static/media/building.d30e535df171bb458dbc.png",
     "static/media/banner3.png": "/static/media/banner3.d3477001637f0a001c5d.png",
     "static/media/carani.png": "/static/media/carani.c2e4cd66a4d0ef264691.png",
@@ -34,6 +33,7 @@
     "static/media/mission.png": "/static/media/mission.804dc153a93d3697da4c.png",
     "static/media/kksbanner1.png": "/static/media/kksbanner1.b4c2fe26acc49dc62c0c.png",
     "static/media/tape.png": "/static/media/tape.45fcf9716c24943ba1d5.png",
+    "static/media/field.webp": "/static/media/field.0d5cc54c328fe3cb1b16.webp",
     "static/media/vinos2.svg": "/static/media/vinos2.5ae5f9fd7f59c853783e.svg",
     "static/media/banner4.png": "/static/media/banner4.c8ecf25a03ee46f9cd52.png",
     "static/media/contactbanner.png": "/static/media/contactbanner.ab83d26a6f79526b735a.png",
@@ -54,9 +54,11 @@
     "static/media/gallery11.jpeg": "/static/media/gallery11.50f26ab95ecf0f2146ba.jpeg",
     "static/media/vinovedabanner.svg": "/static/media/vinovedabanner.511f7363fd8f2ce41430484b76d2d5ea.svg",
     "static/media/gallery4.jpeg": "/static/media/gallery4.f5233ec7d9621f25d5aa.jpeg",
+    "static/media/NRP.png": "/static/media/NRP.b173b38b20bec8203241.png",
     "static/media/gallery3.jpeg": "/static/media/gallery3.5025d9b564bab8b33980.jpeg",
     "static/media/gallery7.jpeg": "/static/media/gallery7.42ffb5a59482336ffd9b.jpeg",
     "static/media/service1.jpg": "/static/media/service1.946ea7a00e7dc7bdcc4d.jpg",
+    "static/media/logonew.svg": "/static/media/logonew.224db6c3d4956fe2261f5ff86886d516.svg",
     "static/media/gallery10.jpeg": "/static/media/gallery10.152c6854d3ce5a4c9894.jpeg",
     "static/media/gallery5.jpeg": "/static/media/gallery5.dc0eee156e3dbc8fe3c3.jpeg",
     "static/media/choose2.png": "/static/media/choose2.6c66962cbd267ac9d1bf.png",
@@ -95,6 +97,7 @@
     "static/media/icon11.png": "/static/media/icon11.b710539042e2ca497773.png",
     "static/media/logocontact1.png": "/static/media/logocontact1.ceb5d46bde91e361ee74.png",
     "static/media/icon16.png": "/static/media/icon16.d61b7cd93ee44aae1a78.png",
+    "static/media/Swiss Garnier.png": "/static/media/Swiss Garnier.269c40708d3f6f620490.png",
     "static/media/vinos7.svg": "/static/media/vinos7.d2573d18db3508a5d554.svg",
     "static/media/icon37.png": "/static/media/icon37.14b5af5715f00a02feae.png",
     "static/media/vinos6.svg": "/static/media/vinos6.54689d89891c4d0e0860.svg",
@@ -106,6 +109,7 @@
     "static/media/caricon4.png": "/static/media/caricon4.dbc8c318412eee92d3b5.png",
     "static/media/caricon2.png": "/static/media/caricon2.f1b9f8a94e975be04dd5.png",
     "static/media/icon18.png": "/static/media/icon18.6c7cac68a1c621471848.png",
+    "static/media/breaker.svg": "/static/media/breaker.8889aec6de4b149cc54d.svg",
     "static/media/icon9.png": "/static/media/icon9.edd3dc740b1dcfa953fc.png",
     "static/media/icon6.png": "/static/media/icon6.00c40dc43d2ef5abd6ae.png",
     "static/media/icon31.png": "/static/media/icon31.542c1110835661e85d86.png",
@@ -113,16 +117,12 @@
     "static/media/icon10.png": "/static/media/icon10.6c2907c7bf38178a9580.png",
     "static/media/icon35.png": "/static/media/icon35.fd2b5b22fb51e1948282.png",
     "static/media/icon17.png": "/static/media/icon17.da1f16762bc2e4030e02.png",
-    "static/media/logo.svg": "/static/media/logo.22d2b9ad0e999ef4c476c475664ce485.svg",
-    "static/media/skypattern.svg": "/static/media/skypattern.17cc365ea9bbc31c7ac0.svg",
     "index.html": "/index.html",
-    "static/media/wave2.svg": "/static/media/wave2.870dd51952b4186e9450.svg",
-    "main.5f18d10a.css.map": "/static/css/main.5f18d10a.css.map",
-    "main.adc8b19a.js.map": "/static/js/main.adc8b19a.js.map",
-    "453.92501364.chunk.js.map": "/static/js/453.92501364.chunk.js.map"
+    "static/media/skypattern.svg": "/static/media/skypattern.17cc365ea9bbc31c7ac0.svg",
+    "static/media/wave2.svg": "/static/media/wave2.870dd51952b4186e9450.svg"
   },
   "entrypoints": [
-    "static/css/main.5f18d10a.css",
-    "static/js/main.adc8b19a.js"
+    "static/css/main.7c157aa1.css",
+    "static/js/main.ee0a19ae.js"
   ]
 }

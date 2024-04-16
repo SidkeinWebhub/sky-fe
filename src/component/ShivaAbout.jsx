@@ -10,7 +10,7 @@ function ShivaAbout() {
     <div className="row">
       <div className="col-lg-4 col-md-4 col-sm-12">
             <h2 className="mb-4 ff-secondary  text-center">Welcome to <i className="  me-2 ff-secondary service-title">Shiva Ganapathy Travels!</i></h2>
-            <p>At Shiva Ganapathy Travels, we specialize in providing top-notch car travel services that cater to all your transportation needs. Whether you're planning a leisurely weekend getaway, a business trip, or simply need a reliable ride to your destination, we are here to make your journey smooth, comfortable, and memorable.</p>
+            <p>At Shiva Ganapathy Travels, we specialize in providing top-notch car travel services that cater to all your transportation needs. Since 2020 we are providing various passenger and commercial vehicle on hire / rental basis to Oil & Gas Industries, Pharma, Infrastructure development projects.</p>
              
       </div>
       <div className="col-lg-4 col-md-4 col-sm-12  inner" style={{marginTop: '10%'}}>

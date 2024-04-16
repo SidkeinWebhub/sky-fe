@@ -61,8 +61,11 @@
     background:  url(../../assets/vinos2.svg) no-repeat 50% 50%/contain;
   }
   
-  .card-vino:nth-child(3) .card__image {
+  .card-vino:nth-child(10) .card__image {
     background:  url(../../assets/vinos3.svg) no-repeat 50% 50%/contain;
+  }
+  .card-vino:nth-child(3) .card__image {
+    background:  url(../../assets/breaker.svg) no-repeat 50% 50%/contain;
   }
   .card-vino:nth-child(4) .card__image {
     background:  url(../../assets/vinos4.svg) no-repeat 50% 50%/contain;

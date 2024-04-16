@@ -24,9 +24,10 @@ function KKSService() {
         <div className="row ">
             
            
-            <div className="col-md-9 col-lg-9 col-sm-12 ">
+            <div className="col-md-9 col-lg-9 col-sm-12  inner">
               <center className='mt-5 mb-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Civil Construction</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>Civil Construction</h1>  
+                  <p className='m-2'>Since 2022 we are providing civil construction services to OIL & Gas, pharma Industries. Expertise in Compound wall construction, fencing for 15 acres industrial land, Construction of tank farm area including ring beam, sand pad foundation work, Dyke wall, Paving, Equipment foundation, Roads and Drain.  </p>  
               </center>
               {/* <p>Here's a more detailed breakdown of our services</p> */}
                 <div className="row  m-5 ">
@@ -35,7 +36,7 @@ function KKSService() {
                         <div className="carousel-inner " >
                         <div className="carousel-item active mt-4" >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon31} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -46,7 +47,7 @@ function KKSService() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon32} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -64,7 +65,7 @@ function KKSService() {
                         </div>
                         <div className="carousel-item mt-4" >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon33} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -75,7 +76,7 @@ function KKSService() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon34} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -93,18 +94,19 @@ function KKSService() {
                         </div>
                         <div className="carousel-item mt-4" >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon35} alt="icon" className='rounded mx-auto d-block' width={75}/>
                         </div>
                         <div className="inner">
                         <h4 className="title1 ff-secondary  fw-normal mb-4">Utilities Installation</h4>
-                            <p>Installation of water, sewer, and drainage systems to ensure efficient and reliable utility services for buildings and communities.</p>
-                        </div>
-                        </div>
+                            <p>Installation of water, sewer, and drainage systems to ensure efficient and reliable utility services for buildings and communities.</p> 
+                        </div> 
+                        </div> 
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    
+                    <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon36} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -152,9 +154,10 @@ function KKSService() {
                 
             </div>
 
-            <div className="col-md-9 col-lg-9 col-sm-12 ">
+            <div className="col-md-9 col-lg-9 col-sm-12 inner">
               <center className='mt-5 mb-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Mechanical Construction</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>Mechanical Construction</h1>  
+                  <p className='m-2'>Since 2022 we are providing various mechanical services to OIL & Gas Industries. We are Expertise in structural pre-fabrication and on-site erection works, Fabrication of Tank and vessels upto 12.0m Dia and painting and protective coating works for Industrial buildings, structural, SS and CS Horizontal & Vertical tanks and piping. </p>  
               </center>
     
                 <div className="row  m-5 ">
@@ -163,7 +166,7 @@ function KKSService() {
                         <div className="carousel-inner " >
                         <div className="carousel-item active mt-4" >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon37} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -174,7 +177,7 @@ function KKSService() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon38} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -190,9 +193,9 @@ function KKSService() {
                     </div>
                     
                         </div>
-                        <div className="carousel-item mt-4" >
+                        <div className="carousel-item mt-4 " >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon39} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -203,7 +206,7 @@ function KKSService() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon40} alt="icon" className='rounded mx-auto d-block' width={75}/>
@@ -221,7 +224,7 @@ function KKSService() {
                         </div>
                         <div className="carousel-item mt-4" >
                         <div className='row'>
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-6 col-md-6 col-sm-6 mb-5">
                         <div className="rn-address ">
                         <div className="icon  mx-auto d-block ">
                         <img src={icon41} alt="icon" className='rounded mx-auto d-block' width={75}/>

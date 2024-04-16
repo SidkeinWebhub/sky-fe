@@ -14,7 +14,9 @@ function VinovedaAbout() {
                 <h2 className="mb-4 ff-secondary ">Welcome to <i className="  me-2 ff-secondary service-title">Vinoveda Enterprises</i></h2>
                 <p className="mb-4 ">At Vinoveda Enterprises, we take pride in being your trusted partner for all your equipment rental needs. With a focus on reliability, quality, and customer satisfaction, we strive to provide top-notch equipment rental solutions that meet the diverse requirements of our clients across various industries.</p>
                 <h2 className="mb-4 ff-secondary "> <i className="  section-title ff-secondary text-start  fw-normal ">Who We Are</i></h2>
-                <p className="mb-3">Vinoveda Enterprises is a leading provider of equipment rental services, serving clients in the industrial, construction, manufacturing, and infrastructure sectors. With years of experience in the industry, we have established ourselves as a reliable source for high-quality equipment and unparalleled customer service.</p>
+                <p className="mb-3">Since 2019 we are providing various industrial equipment’s on hire / rental basis to Oil & Gas Industries, Pharma, Infrastructure development projects.
+We provide Dozer, Excavator, Breaker, Loader, Grader, Back hoe, Diesel Generator upto 125 KVA, Compressor upto 500 CFM, De-watering pumps, Trailer, Tractor with required mounted attachment.   
+</p>
                 <h2 className="mb-4 ff-secondary "> <i className="  section-title ff-secondary text-start  fw-normal ">Our Commitment</i></h2>
                 <p className="mb-3">At Vinoveda Enterprises, we are committed to exceeding our clients' expectations by delivering exceptional service and top-of-the-line equipment. Our commitment to quality and reliability is evident in everything we do, from our extensive equipment inventory to our dedicated team of professionals.</p>
                 

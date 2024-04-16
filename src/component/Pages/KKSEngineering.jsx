@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import KKSBanner from '../KKSBanner'
 import KKSAbout from '../KKSAbout'
 import KKSService from '../KKSService'
-import Footer from '../Footer';
+import Footer from '../Footer2';
 
 function KKSEngineering() {
     useEffect(() => {

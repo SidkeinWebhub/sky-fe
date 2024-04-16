@@ -52,10 +52,10 @@ function SKYAbout() {
             </div>
             <div className=" col-lg-6 service1">
                 <h5 className="section-title ff-secondary text-start  fw-normal">About Us</h5>
-                <h2 className="mb-4 ff-secondary ">Welcome to <i className="  me-2 ff-secondary service-title">SKY Engineering Enterprises</i></h2>
-                <p className="mb-4">At SKY Engineering Enterprises, we're committed to excellence in engineering solutions tailored to meet your needs. With a rich history of innovation and a dedication to quality, we stand as a premier engineering concern, delivering cutting-edge services across various industries. </p>
+                <h2 className="mb-4 ff-secondary ">Welcome to <i className="  me-2 ff-secondary service-title">SKY Engineering Design</i></h2>
+                <p className="mb-4">At SKY Engineering Design, we're committed to excellence in engineering solutions tailored to meet your needs. With a rich history of innovation and a dedication to quality, we stand as a premier engineering concern, delivering cutting-edge services across various industries. </p>
                 <h2 className="mb-4 ff-secondary "> <i className="  section-title ff-secondary text-start  fw-normal ">Who We Are</i></h2>
-                <p className="mb-3">At SKY Engineering Enterprises, we are a team of seasoned professionals driven by a passion for engineering excellence. With a diverse skill set and extensive experience, we tackle projects of all sizes and complexities with precision and expertise. </p>
+                <p className="mb-3">At SKY Engineering Design, we are a team of seasoned professionals driven by a passion for engineering excellence. With a diverse skill set and extensive experience, we tackle projects of all sizes and complexities with precision and expertise. <br /> Sky Engineering Design offers a comprehensive range of services in design and engineering, particularly specializing in civil tank foundation design, tank design, structural design using TEKLA, and piping detailing. </p>
                 
             </div>
         </div>

@@ -4,7 +4,6 @@ import MainRoute from './component/MainRoute';
 function App() {
   return (
     <MainRoute/>
-    // <h1>test</h1>
   );
 }
 

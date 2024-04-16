@@ -1,5 +1,4 @@
 import React from 'react'
-// import './css/skybanner.css'
 import banner1 from '../assets/kksbanner1.png'
 
 function SKYBanner() {

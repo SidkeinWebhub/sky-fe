@@ -11,7 +11,7 @@ function VinovedaService() {
                 <div className="col-md-12 col-lg-12 col-sm-12 ">
                     <center className='mt-2 mb-4 '>
                         <h1 className=' section-title ff-secondary  fw-normal mb-3 '>Equipment Rental Services</h1> 
-                        <p className='vono-about'>Welcome to Vinoveda Enterprises, your premier destination for top-notch equipment rental solutions. With a commitment to excellence and customer satisfaction, we offer a comprehensive range of equipment to meet the diverse needs of industries such as construction, manufacturing, infrastructure development, and more. Whether you're embarking on a large-scale project or need specialized tools for a specific task, we have the equipment you need to get the job done efficiently and effectively.</p>   
+                        <p className='vono-about'>Welcome to Vinoveda Enterprises, We provide Dozer, Excavator, Breaker, Loader, Grader, Back hoe, Diesel Generator upto 125 KVA, Compressor upto 500 CFM, De-watering pumps, Trailer, Tractor with required mounted attachment.</p>   
                     </center>
                 </div>
                 <div className="col-md-12 col-lg-12 col-sm-12 mb-5">
@@ -37,7 +37,7 @@ function VinovedaService() {
                     <div className="card-vino">
                         <div className="card__image"></div>
                         <div className="card__content">
-                            <span className="card__title">Compactors</span>
+                            <span className="card__title">Breaker</span>
                             <p className="card__describe">
                             Heavy Machinery
                             </p>
@@ -94,6 +94,15 @@ function VinovedaService() {
                             <span className="card__title"> Welding machines</span>
                             <p className="card__describe">
                             Specialized Equipment
+                            </p>
+                        </div>
+                    </div>
+                    <div className="card-vino">
+                        <div className="card__image"></div>
+                        <div className="card__content">
+                            <span className="card__title">Compactors</span>
+                            <p className="card__describe">
+                            Heavy Machinery
                             </p>
                         </div>
                     </div>

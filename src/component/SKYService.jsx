@@ -1,7 +1,6 @@
 import React from 'react'
 import './css/skyservice.css'
 import icon5 from '../assets/icon5.png'
-import icon from '../assets/icon1.png'
 import icon6 from '../assets/icon6.png'
 import icon7 from '../assets/icon7.png'
 import icon8 from '../assets/icon8.png'
@@ -26,7 +25,7 @@ import icon26 from '../assets/icon26.png'
 import icon27 from '../assets/icon27.png'
 import skyservice1 from '../assets/skyservice1.png'
 import skyservice2 from '../assets/skyservice2.png'
-import skyservice3 from '../assets/skyservice3.png'
+import skyservice3 from '../assets/field.webp'
 import skyservice4 from '../assets/skyservice4.png'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -46,9 +45,9 @@ function SKYService() {
            
             <div className="col-md-10 col-lg-9 col-sm-12 ">
               <center className='m-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Civil Engineering</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>Design</h1>    
               </center>
-              <p>Our Civil Engineering Services at SKY Engineering Enterprises are comprehensive and designed to cover various aspects of infrastructure development and management. </p>
+              <p>Sky Engineering Design provides design services, likely encompassing conceptualization, planning, and creating the initial blueprints or models for various projects.</p>
 
               <Swiper
                 slidesPerView={2}
@@ -67,8 +66,8 @@ function SKYService() {
                        <img src={icon6} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Infrastructure Design</h4>
-                        <p>We provide comprehensive civil engineering services for infrastructure projects, including roads, highways, bridges, tunnels, airports, and water supply systems, from concept to construction.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Conceptualization</h4>
+                        <p>This is the initial phase where Sky Engineering Design collaborates with clients to understand their vision, requirements, and objectives for the project. They may conduct feasibility studies, site surveys, and gather relevant data to inform the design process.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -78,8 +77,8 @@ function SKYService() {
                        <img src={icon7} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Construction Management</h4>
-                        <p>Our construction management services ensure smooth project execution, including scheduling, budgeting, quality control, and safety management, to deliver projects on time and within budget.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Planning</h4>
+                        <p>Once the conceptual framework is established, Sky Engineering Design develops a detailed plan outlining the scope, goals, and milestones of the project. This plan serves as a roadmap for the design process, guiding the team through each stage from conception to completion. </p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -89,8 +88,8 @@ function SKYService() {
                        <img src={icon8} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Environmental Engineering</h4>
-                        <p>We offer environmental engineering expertise, including environmental impact assessments, remediation plans, and sustainable design solutions, to minimize environmental impact and promote sustainability.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Creating Initial Blueprints or Models</h4>
+                        <p>Using advanced software tools and their expertise, Sky Engineering Design translates conceptual ideas into tangible blueprints, models, or sketches. These initial designs serve as the foundation for the project, providing a visual representation of the proposed solution.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -100,8 +99,19 @@ function SKYService() {
                        <img src={icon9} alt="icon" className='rounded  d-block' width={40} height={60}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Geotechnical Engineering</h4>
-                        <p>We perform site investigations to assess soil conditions, groundwater levels, and geological features, providing valuable data for foundation design and construction planning.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Iterative Design Process</h4>
+                        <p>Design is an iterative process, and Sky Engineering Design embraces feedback and revisions throughout the development cycle. They collaborate closely with clients, architects, and other stakeholders to refine the design based on input, changes in requirements, or new insights. </p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className='swiper1'>
+                <div className="rn-address1">
+                    <div className="icon  mx-auto d-block ">
+                       <img src={icon9} alt="icon" className='rounded  d-block' width={40} height={60}/>
+                    </div>
+                    <div className="inner ">
+                      <h4 className="title1 ff-secondary  fw-normal">Compliance and Standards</h4>
+                        <p>Sky Engineering Design adheres to relevant industry standards, codes, and regulations throughout the design process. They ensure that the design meets safety requirements, environmental regulations, and other legal obligations. </p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -126,9 +136,9 @@ function SKYService() {
            
             <div className="col-md-10 col-lg-9 col-sm-12 ">
               <center className='m-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Mechanical Engineering</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>Detail Engineering</h1>    
               </center>
-              <p>Here are the mechanical engineering services provided by SKY Engineering Enterprises. </p>
+              <p>This involves the meticulous planning and execution of engineering designs, ensuring that all aspects are thoroughly considered and detailed.</p>
 
               <Swiper
                 slidesPerView={2}
@@ -147,8 +157,8 @@ function SKYService() {
                        <img src={icon5} alt="icon" className='rounded mx-auto d-block' width={50}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Conceptualization & Design</h4>
-                        <p>Our team specializes in conceptualizing ideas and transforming them into viable mechanical designs. We work closely with clients to understand their requirements and develop innovative solutions that meet their needs.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Detailed Analysis</h4>
+                        <p>Sky Engineering Design conducts a thorough analysis of the initial designs, considering factors such as structural integrity, load-bearing capacity, and environmental impact. They use advanced engineering tools and techniques to perform simulations, calculations, and feasibility.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -158,8 +168,8 @@ function SKYService() {
                        <img src={icon10} alt="icon" className='rounded mx-auto d-block' width={75} height={70}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Computer-Aided Design (CAD)</h4>
-                        <p>Using the latest CAD software, we create detailed 2D and 3D models of mechanical components and systems. CAD allows us to visualize designs, identify potential issues, and make necessary modifications before prototyping.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Technical Specifications</h4>
+                        <p>Sky Engineering Design develops detailed technical specifications outlining the materials, components, and construction methods required for the project. These specifications serve as a blueprint for procurement, construction, and quality control, ensuring consistency.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -169,8 +179,8 @@ function SKYService() {
                        <img src={icon11} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Prototyping and Testing</h4>
-                        <p>We offer prototyping services to create physical models of mechanical designs for testing and validation. Through rapid prototyping techniques, we can quickly iterate on designs, ensuring optimal performance and functionality.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Engineering Drawings</h4>
+                        <p>Sky Engineering Design creates precise engineering drawings, including plans, elevations, sections, and details, that provide a comprehensive representation of the design.These drawings serve as a communication tool for  contractors, fabricators, and other stakeholders involved in the construction process.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -180,8 +190,8 @@ function SKYService() {
                        <img src={icon12} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Manufacturing Support</h4>
-                        <p>Our team provides support throughout the manufacturing process, including material selection, tooling design, and production planning. We aim to optimize manufacturing processes to improve efficiency and reduce costs while maintaining quality standards.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Risk Management</h4>
+                        <p>Detail engineering involves identifying and mitigating potential risks that may arise during the construction phase. Sky Engineering Design conducts risk assessments, contingency planning, and value engineering to minimize project risks while maximizing value and efficiency. </p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -191,8 +201,8 @@ function SKYService() {
                        <img src={icon13} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Mechanical Systems Integration</h4>
-                        <p>We specialize in integrating mechanical components into larger systems or products. Whether it's designing HVAC systems for buildings or integrating machinery for industrial applications, we ensure seamless integration and compatibility.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Coordination and Collaboration</h4>
+                        <p>Sky Engineering Design collaborates closely with architects, contractors, suppliers, and other project stakeholders to coordinate design efforts and resolve any conflicts or discrepancies that may arise. They facilitate interdisciplinary communication, foster teamwork, and ensure alignment with project objectives and client expectations.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -202,8 +212,8 @@ function SKYService() {
                        <img src={icon14} alt="icon" className='rounded mx-auto d-block' width={75} height={70}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Documentation and Support</h4>
-                        <p>We provide detailed documentation, including technical drawings, specifications, and user manuals, to support and maintenance of our mechanical engineering solutions. our team offers ongoing technical support to address any issues that may arise.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Quality Assurance and Control</h4>
+                        <p>Throughout the detail engineering process, Sky Engineering Design implements rigorous quality assurance and control measures to maintain the highest standards of quality and performance. They conduct regular inspections, audits, and reviews to verify compliance with specifications, identify deviations, and implement corrective actions as needed.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -220,9 +230,9 @@ function SKYService() {
            
             <div className="col-md-10 col-lg-9 col-sm-12 ">
               <center className='m-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Structural Engineering</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>Field Change Design</h1>    
               </center>
-              <p>SKY Engineering Enterprises is dedicated to providing high-quality structural engineering services that meet the highest standards of excellence, innovation, and client satisfaction. Whether you're planning a new construction project, renovating an existing structure, or addressing structural issues, we have the expertise and resources to support your needs effectively.</p>
+              <p>Sky Engineering Design's expertise in Field Change Design enables them to efficiently adapt and adjust designs in response to these changes while minimizing disruption and maintaining project momentum. Here's a detailed explanation of their approach.</p>
 
               <Swiper
                 slidesPerView={2}
@@ -241,8 +251,8 @@ function SKYService() {
                        <img src={icon15} alt="icon" className='rounded mx-auto d-block' width={55} height={70}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Structural Analysis and Design</h4>
-                        <p> We provide comprehensive structural analysis and design services for a wide range of projects, including buildings, bridges, towers, and industrial structures. Our team utilizes advanced analytical tools and techniques to ensure structural integrity, stability, and safety.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Site Assessment</h4>
+                        <p>Sky Engineering Design first conducts a thorough assessment of the site conditions, taking into account factors such as topography, soil stability, accessibility, and existing infrastructure. This assessment helps them understand the context and implications of the proposed changes and informs their decision-making process.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -252,8 +262,8 @@ function SKYService() {
                        <img src={icon16} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Seismic Design and Retrofitting</h4>
-                        <p> With expertise in seismic design and retrofitting, we help clients mitigate the risk of earthquake-induced damage to structures. Our seismic design solutions enhance structural resilience and compliance with building codes and standards in seismically active regions.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Impact Analysis</h4>
+                        <p> Sky Engineering Design evaluates the potential impact of the proposed changes on various aspects of the project, including structural integrity, functionality, cost, schedule, and regulatory compliance. They use advanced modeling and simulation tools to analyze different scenarios and assess the feasibility and consequences of each option.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -263,8 +273,8 @@ function SKYService() {
                        <img src={icon17} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Foundation Design</h4>
-                        <p> Our structural engineers specialize in the design of foundations, including shallow and deep foundations, pile foundations, and mat foundations. We conduct thorough geotechnical investigations to develop foundation solutions that support the structural loads and soil conditions.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Design Modification</h4>
+                        <p>Sky Engineering Design proposes appropriate modifications to the original design to accommodate the requested changes effectively. They leverage their expertise in engineering principles, construction techniques, and regulatory requirements to develop alternative solutions that meet the project objectives while addressing the new requirements or constraints.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -274,8 +284,8 @@ function SKYService() {
                        <img src={icon18} alt="icon" className='rounded  d-block' width={40} height={60}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Structural Rehabilitation and Strengthening</h4>
-                        <p> We offer structural rehabilitation and strengthening services for existing structures to extend their service life, enhance performance, and meet current design standards. Our solutions may include adding reinforcements, retrofitting, or implementing structural repairs as needed.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Collaboration and Communication</h4>
+                        <p>Sky Engineering Design collaborates closely with the project team, including architects, contractors, clients, and regulatory authorities, to discuss the proposed changes, solicit feedback, and obtain necessary approvals. They maintain open lines of communication and facilitate constructive dialogue to ensure alignment and consensus among stakeholders.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -285,8 +295,8 @@ function SKYService() {
                        <img src={icon19} alt="icon" className='rounded  d-block' width={40} height={60}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Structural Inspection and Assessment</h4>
-                        <p>  Our team conducts structural inspections and assessments to evaluate the condition and integrity of existing structures. Through non-destructive testing, visual inspections, and structural analysis, we identify deficiencies,  recommend necessary repairs or upgrades.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Documentation and Documentation</h4>
+                        <p>Sky Engineering Design documents all field change requests, including the rationale, scope, impact, and resolution of each change. They update relevant drawings, specifications, and other project documentation to reflect the revised design accurately. This documentation helps maintain clarity, accountability, and traceability throughout the project lifecycle.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -296,8 +306,8 @@ function SKYService() {
                        <img src={icon20} alt="icon" className='rounded  d-block' width={40} height={70}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Building Information Modeling (BIM)</h4>
-                        <p>  We leverage Building Information Modeling (BIM) technology to create accurate digital representations of structural elements and systems. BIM facilitates collaborative design, coordination, leading to more efficient project delivery and better-informed decision-making.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Implementation Support</h4>
+                        <p>Sky Engineering Design provides on-site support and technical assistance during the implementation of field changes to ensure smooth execution and compliance with the revised design. They collaborate with contractors and subcontractors to address any challenges or issues that may arise during construction and monitor progress to ensure that the changes are implemented correctly and efficiently.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -307,8 +317,8 @@ function SKYService() {
                        <img src={icon21} alt="icon" className='rounded  d-block' width={40} height={70}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Specialized Structural Solutions</h4>
-                        <p> In addition to standard structural engineering services, we offer specialized solutions for unique challenges special-purpose buildings, and innovative structural systems. Our team collaborates closely with clients to develop custom solutions that meet their specific project requirements.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Quality Assurance and Control</h4>
+                        <p>Throughout the Field Change Design process, Sky Engineering Design maintains a focus on quality assurance and control to ensure that the revised design meets the same rigorous standards as the original design. They conduct inspections, audits, and reviews to verify compliance with specifications, identify deviations, and address any quality concerns promptly.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -333,9 +343,9 @@ function SKYService() {
            
             <div className="col-md-10 col-lg-9 col-sm-12 ">
               <center className='m-4 '>
-                  <h1 className=' section-title ff-secondary  fw-normal '>Consulting Services</h1>    
+                  <h1 className=' section-title ff-secondary  fw-normal '>As-Built</h1>    
               </center>
-              <p>SKY Engineering Enterprises combines technical expertise, industry experience, and a client-focused approach to deliver comprehensive consulting services that address the unique needs and challenges of each project. </p>
+              <p>After a project is completed, accurate as-built documentation is crucial for record-keeping and future reference. Sky Engineering Design probably provides services to create detailed as-built drawings reflecting the constructed reality.</p>
 
               <Swiper
                 slidesPerView={2}
@@ -354,8 +364,8 @@ function SKYService() {
                        <img src={icon22} alt="icon" className='rounded mx-auto d-block' width={50}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Engineering Consulting</h4>
-                        <p>Our engineering consulting services provide expert guidance and advice on a wide range of technical matters. We offer insights into engineering best practices, industry standards, and regulatory requirements.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Site Verification</h4>
+                        <p> Sky Engineering Design begins by conducting thorough site verification to assess the actual construction as compared to the original design. This involves physically inspecting the site, reviewing construction drawings and specifications, and documenting any deviations or modifications that were made during the construction process.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -365,8 +375,8 @@ function SKYService() {
                        <img src={icon23} alt="icon" className='rounded mx-auto d-block' width={75} height={70}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Project Management</h4>
-                        <p>SKY Engineering Enterprises offers project management services to oversee and coordinate engineering projects. Our project managers are skilled in scheduling, budgeting, resource allocation, and risk management.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Data Collection</h4>
+                        <p>They collect data from various sources, including construction reports, field notes, photographs, and subcontractor documentation, to compile a comprehensive record of the as-built conditions. This may involve coordinating with project managers, contractors, and other stakeholders to gather all relevant information accurately.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -376,8 +386,8 @@ function SKYService() {
                        <img src={icon24} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner">
-                      <h4 className="title1 ff-secondary  fw-normal">Risk Assessment and Mitigation</h4>
-                        <p>Our consulting team conducts comprehensive risk assessments to identify potential threats and vulnerabilities associated with projects. We analyze various factors, including technical, financial, and regulatory risks.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">As-Built Drawings</h4>
+                        <p>Sky Engineering Design creates detailed as-built drawings that accurately reflect the final constructed reality of the project. These drawings typically include plans, elevations, sections, and details, highlighting any changes or deviations from the original design. They use industry-standard CAD software and drafting techniques to ensure clarity, accuracy, and consistency in the drawings.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -387,8 +397,8 @@ function SKYService() {
                        <img src={icon25} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Feasibility Studies</h4>
-                        <p>We conducts feasibility studies to assess the potential outcomes of projects. We evaluate technical, economic, and environmental factors to determine the project's feasibility and potential return on investment.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Documentation Accuracy</h4>
+                        <p>Sky Engineering Design pays close attention to detail to ensure that the as-built documentation accurately reflects the actual conditions of the project. They cross-reference multiple sources of information, verify measurements and dimensions on-site, and reconcile any discrepancies to maintain the integrity and reliability of the documentation.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -398,8 +408,8 @@ function SKYService() {
                        <img src={icon26} alt="icon" className='rounded mx-auto d-block' width={75}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Technical Analysis and Troubleshooting</h4>
-                        <p>Our team offers technical analysis and troubleshooting services to address engineering challenges. We leverage our expertise in various engineering disciplines to identify root causes and propose effective solutions.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Quality Assurance</h4>
+                        <p>Sky Engineering Design implements rigorous quality assurance measures to ensure the accuracy and completeness of the final deliverables. They conduct internal reviews, peer audits, and validation checks to verify that the drawings meet the required standards and specifications.</p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -409,8 +419,19 @@ function SKYService() {
                        <img src={icon27} alt="icon" className='rounded mx-auto d-block' width={75} height={70}/>
                     </div>
                     <div className="inner ">
-                      <h4 className="title1 ff-secondary  fw-normal">Regulatory Compliance Assistance</h4>
-                        <p>We helps clients navigate regulatory requirements and ensure compliance with applicable laws, codes, and standards. We provide guidance on regulatory frameworks and compliance audits to mitigate legal.</p>
+                      <h4 className="title1 ff-secondary  fw-normal">Client Review and Approval</h4>
+                        <p>Once the as-built drawings are prepared, Sky Engineering Design submits them to the client for review and approval. They accommodate any feedback or revisions requested by the client to ensure that the documentation meets their needs and expectations.</p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide className='swiper1'>
+                <div className="rn-address1">
+                    <div className="icon  mx-auto d-block ">
+                       <img src={icon27} alt="icon" className='rounded mx-auto d-block' width={75} height={70}/>
+                    </div>
+                    <div className="inner ">
+                      <h4 className="title1 ff-secondary  fw-normal">Delivery and Archiving</h4>
+                        <p>Sky Engineering Design delivers the final as-built documentation to the client in the desired format, whether digital or hardcopy. They also maintain archival copies of the drawings for future reference and use, ensuring that the information remains accessible and retrievable over the long term.</p>
                     </div>
                   </div>
                 </SwiperSlide>

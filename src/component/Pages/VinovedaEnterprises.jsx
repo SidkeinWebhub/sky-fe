@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import VinovedaBanner from '../VinovedaBanner';
 import VinovedaAbout from '../VinovedaAbout';
 import VinovedaService from '../VinovedaService';
-import Footer from '../Footer';
+import Footer from '../Footer3';
 
 function VinovedaEnterprises() {
     useEffect(() => {

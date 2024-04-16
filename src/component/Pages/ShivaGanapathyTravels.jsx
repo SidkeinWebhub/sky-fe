@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import ShivaBanner from '../ShivaBanner';
 import ShivaAbout from '../ShivaAbout';
 import ShivaService from '../ShivaService';
-import Footer from '../Footer';
+import Footer from '../Footer4';
 
 function ShivaGanapathyTravels() {
     useEffect(() => {

@@ -4,6 +4,7 @@ import Navbar from '../Navbar'
 import ContactBanner from '../ContactBanner';
 import ContactData from '../ContactData';
 import Contact from '../Contact';
+import Map from '../Map';
 import Footer from '../Footer';
 
 function ContactUs() {
@@ -17,6 +18,7 @@ function ContactUs() {
         <ContactBanner/>
         <ContactData/>
         <Contact/>
+        <Map/>
         <Footer/>
         <ToastContainer autoClose={3000} position={'top-right'} theme={'light'} />
     </>

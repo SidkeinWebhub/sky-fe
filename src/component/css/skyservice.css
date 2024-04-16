@@ -1,9 +1,9 @@
 .sky-img2 {
     /* z-index: 9; */
-    width: 200px; 
+    width: 300px; 
     height: 400px;
-    /* position: relative; */
-    /* bottom: 0px;      */
+    position: relative;
+    top: 15%;     
 }
 .sky-img3 { 
     position: relative;
@@ -71,7 +71,7 @@
         /* z-index: 9; */
         position: relative;
         top: 25%;
-        width: 100%; 
+        width: 150%; 
         height: 50%;
         /* position: relative; */
         /* bottom: 0px;      */
@@ -104,6 +104,15 @@
         border-image-outset: -50px; 
         padding: 0px;     
     }
+    .sky-img2 {
+        /* z-index: 9; */
+        position: relative;
+        top: 0%;
+        width: 80%; 
+        height: 100%;
+        /* position: relative; */
+        /* bottom: 0px;      */
+    }
     .sky-img3 { 
         position: relative;
         top: 25%;
@@ -125,6 +134,15 @@
         border-image-width: 200px;
         border-image-outset: -50px; 
         padding: 0px;     
+    }
+    .sky-img2 {
+        /* z-index: 9; */
+        position: relative;
+        top: 0%;
+        width: 100%; 
+        height: 100%;
+        /* position: relative; */
+        /* bottom: 0px;      */
     }
     .sky-img3 { 
         position: relative;

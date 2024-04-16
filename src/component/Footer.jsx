@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import logo from '../assets/logo.svg'
+import logo from '../assets/logonew.svg'
 import './css/footer.css'
 
 function Footer() {
@@ -9,11 +9,11 @@ function Footer() {
         <div className="container ">
           <div className="row">
             <div className="col-md-12 col-lg-4 col-sm-12 footer-div">
-              <center>
-                <img src={logo} alt="" className='bg-transparent footer-img pe-5 me-5' height={70} width={250} />
-              </center>
+              {/* <center> */}
+                <img src={logo} alt="" className='bg-transparent footer-img pe-5 me-5'  />
+              {/* </center> */}
                 
-              <p className='footer-p'>Thank you for visiting SKY Groups! We appreciate your interest in our services. If you have any questions or inquiries, please don't hesitate to contact us.</p>
+              <p className='footer-p'>Thank you for visiting SKYERS Group! We appreciate your interest in our services. If you have any questions or inquiries, please don't hesitate to contact us.</p>
               
             </div>
             <div className="col-md-6 col-lg-4 col-sm-6 footer-div footer-link">
@@ -49,26 +49,36 @@ function Footer() {
                 
                     <h5 className='link-h link-hs '>Support</h5>
                     <div className='link-support'>
-                      <span className='link-span'><i className="bi bi-telephone-fill  link-i"></i>+91-9842384534</span>
+                      <span className='link-span'>SKY ENGINEERING DESIGN <br /><i className="bi bi-telephone-fill  link-i"></i>+91-78459 02477</span> <br /> 
+                      {/* <span className='link-span'><i className="bi bi-geo-alt-fill  link-i"></i> PLOT NO 02 & 03 ALUKRISH AVENUE, MANGALAM VILLAGE, MADURANTAKAM TALUK, CHENGALPATTU DISTRICT, TAMIL NADU 603107</span>  */}
+                      {/* <br /> <br /> */}
+
+                      <span className='link-span'>KKS ENGINEERING & CONTRACTOR <br /><i className="bi bi-telephone-fill  link-i"></i>+91-78459 20477</span> <br /><br />
+                      <span className='link-span'><i className="bi bi-geo-alt-fill  link-i"></i> PLOT NO 02 & 03 ALUKRISH AVENUE, MANGALAM VILLAGE, MADURANTAKAM TALUK, CHENGALPATTU DISTRICT, TAMIL NADU 603107</span> <br /> <br />
+                      
+                      <span className='link-span'>VINOVEDA ENTERPRISES  <br /><i className="bi bi-telephone-fill  link-i"></i>+91-98417 96660</span> <br />
+                      <span className='link-span'>SHIVAGANAPATHY TRAVELS  <br /><i className="bi bi-telephone-fill  link-i"></i>+91-97505 42802</span>
                       <br /><br />
+                      <span className='link-span'><i className="bi bi-geo-alt-fill  link-i"></i> NO 03 FIRST FLOOR, KAMMALAR STREET, NELLI VILLAGE, PALLIYAGARAM POST, MADURANTAKAM TALUK, CHENGALPATTU DISTRICT, TAMIL NADU 603107</span> <br /> <br />
+
                       <span className='link-span'><i className="bi bi-envelope-fill  link-i"></i> kksengineeringcontractor@gmail.com</span>
                       <br /><br />
-                      <span className='link-span'><i className="bi bi-geo-alt-fill  link-i"></i> T9 Block A,
+                      {/* <span className='link-span'><i className="bi bi-geo-alt-fill  link-i"></i> T9 Block A,
                                             Leela towers,
                                             Kovilambakkam
                                             Opposite to mothers world 
-                                            Chennai 600117</span>
+                                            Chennai 600117</span> */}
                     </div>
                 
             </div>
             <center className='social-link'>
-              <span className='social-span'><NavLink to={"whatsapp://send?text=Hi!&phone=9842384534"} className="bi bi-whatsapp" ></NavLink></span>
+              <span className='social-span'><NavLink to={"whatsapp://send?text=Hi!&phone=9841796660"} className="bi bi-whatsapp" ></NavLink></span>
               <span className='social-span'><NavLink to={"mailto:kksengineeringcontractor@gmail.com"} className="bi bi-envelope-fill" ></NavLink></span>
-              <span className='social-span'><NavLink to={"www.linkedin.com/in/sidkein-webhub-5604112a2"} className='bi bi-linkedin'></NavLink></span>
-              <span className='social-span'><NavLink to={"https://www.facebook.com/profile.php?id=61553984105623&mibextid=LQQJ4d"} className='bi bi-facebook'></NavLink></span>
-              <span className='social-span'><NavLink to={"https://instagram.com/sidkein_webhub?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"} className='bi bi-instagram'></NavLink></span>
-              <span className='social-span'><NavLink to={"https://twitter.com/SidkeinWebhub"} className='bi bi-twitter-x'></NavLink></span>
-              <span className='social-span'><h6 className=' copyright'>Copyright © 2024 SKY Groups. All Rights Reserved.</h6></span>
+              <span className='social-span'><NavLink to={"https://www.linkedin.com/in/skyers-group-673346304/"} className='bi bi-linkedin'></NavLink></span>
+              <span className='social-span'><NavLink to={"https://www.facebook.com/profile.php?id=61558165572743"} className='bi bi-facebook'></NavLink></span>
+              <span className='social-span'><NavLink to={"https://www.instagram.com/skyers.group/"} className='bi bi-instagram'></NavLink></span>
+              <span className='social-span'><NavLink to={"https://twitter.com/SkyersGroup"} className='bi bi-twitter-x'></NavLink></span>
+              <span className='social-span'><h6 className=' copyright'>© 2024 SKYERS Group. All Rights Reserved.</h6></span>
           </center>
         </div>
       </div>

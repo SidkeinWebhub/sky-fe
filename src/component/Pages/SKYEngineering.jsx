@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import SKYBanner from '../SKYBanner';
 import SKYAbout from '../SKYAbout';
 import SKYService from '../SKYService';
-import Footer from '../Footer';
+import Footer from '../Footer1';
 
 function SKYEngineering() {
     useEffect(() => {

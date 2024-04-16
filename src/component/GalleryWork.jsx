@@ -51,7 +51,7 @@ function GalleryWork() {
         <div className="row " ref={servicesRef}>
             <center className=' ff-secondary  fw-normal service1'>
                 <h1 className='service-title1 '>Our Works</h1>
-                <p className='gallery-p mt-5 '>Our portfolio represents just a glimpse of the diverse projects we've undertaken. Whether it's engineering, construction, equipment rental, or travel services, we're dedicated to delivering exceptional results that exceed expectations. Explore our works and get inspired for your next project with SKY Groups. <br /> Contact us today to discuss your project requirements, learn more about our services, or request a quote. We're here to help you turn your vision into reality.</p>
+                <p className='gallery-p mt-5 '>Our portfolio represents just a glimpse of the diverse projects we've undertaken. Whether it's engineering, construction, equipment rental, or travel services, we're dedicated to delivering exceptional results that exceed expectations. Explore our works and get inspired for your next project with SKYERS Group. <br /> Contact us today to discuss your project requirements, learn more about our services, or request a quote. We're here to help you turn your vision into reality.</p>
             </center>
         </div>
         </div>
